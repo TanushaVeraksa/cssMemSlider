@@ -92,4 +92,36 @@ p {
     border-radius: 0.5em; 
 }
 
+@media (min-width: 320px) and (max-width: 567px) {
+    .container {
+        height: 28em;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content-seal {
+        height: 18em;
+    }
+    .content-programmer {
+        height: 18em;
+        background: url(img/1500x500.jpg) center;
+    }
+    .content-attention {
+        height: 18em;
+    }
+    .text-content {
+        flex-direction: column-reverse;
+    }
+    .content-jobs{
+        height: 18em;
+        background: url(img/b8li0bp1xDiqUbcO.jpg) bottom;
+    }
+    .slider {
+        width: 40%;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
 
