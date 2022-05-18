@@ -52,10 +52,11 @@ body {
 .wrapper label {
 	cursor: pointer;
 	display: inline-block;
-	height: 8px;
+	height: 0.5rem;
+    margin: 1em 0;
 	margin: 25px 12px 0 16px;
 	position: relative;
-	width: 8px;
+	width: 0.5rem;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -160,7 +161,16 @@ body {
 .slide4 { background: url(img/7mzrlz.jpg.opdownload) center top; }
 
 @media (min-width: 320px) and (max-width: 567px) {
-
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text {
+        align-self: flex-start;
+    }
+    .wrapper {
+        width: 25em;
+    }
 }
 
 
