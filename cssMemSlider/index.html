@@ -8,19 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
-    <div class="container">
-        <div class="content-seal"></div>
-        <div class="text-content">
-            <p>Funny seal</p>
-            <div class="slider">
-                <div class="label"><input class="custom" type="radio" name="slider" value="1" checked></div>
-                <div class="label"><input class="custom" type="radio" name="slider" value="2"></div>
-                <div class="label"><input class="custom" type="radio" name="slider" value="3"></div>
-                <div class="label"><input class="custom" type="radio" name="slider" value="4"></div>
+    <div class="wrapper">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <div class="slider">
+            <div class="slides slide1"></div>
+            <div class="slides slide2"></div>
+            <div class="slides slide3"></div>
+            <div class="slides slide4"></div>
+        </div>
+        <div class="footer">
+            <div class="text">
+                <p class="slide-text1">Funny seal</p>
+                <p class="slide-text2">She was very interested in my python but i only know php</p>
+                <p class="slide-text3">First rule of programming: if it's works don't touch it!</p>
+                <p class="slide-text4">Thank you for your attention</p>
+            </div>	
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
